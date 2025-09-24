@@ -1,0 +1,29 @@
+#root {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+  min-width: 320px;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: brown;
+}
+.title{
+   text-align: center;
+     margin: 70px auto 0 auto; 
+   width: 80vw;
+    margin-top: 70px;
+    border: 10px solid black;
+  vertical-align: top;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+
+}
+.board {
+  border-radius: 30px;
+  margin: 50px;
+  place-items: center;
+  min-width: 320px;
+  min-height: 80vh;
+  width: 80vw;
+  background-color: rgb(249,241,241)
+}
